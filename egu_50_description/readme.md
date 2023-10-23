@@ -1,8 +1,6 @@
-# schunk_description Project
-
 ## Introduction
 
-The `schunk_description` project hosts the URDF (Unified Robot Description Format) models for the SCHUNK EGU 50 gripper. This document provides instructions on how to modify and utilize the provided models, especially concerning the replacement of finger models on the EGU 50 gripper.
+The `egu_50_description` package hosts the URDF (Unified Robot Description Format) models for the SCHUNK EGU 50 gripper. This document provides instructions on how to modify and utilize the provided models, especially concerning the replacement of finger models on the EGU 50 gripper.
 
 ## Package Structure
 
@@ -39,12 +37,36 @@ To replace the fingers on the EGU 50 model, follow the steps below:
      ```
      - If your mesh file is in `.dae` format, replace `STL` with `${meshType}`, for other formats, replace `STL` with the appropriate format (e.g., `stl`).
 
+5. **Adjusting Finger Orientation and Position**:
+   - If the assembled fingers do not align correctly, modify the `rpy` values in the following joint definitions in the `egu_50.xacro` file:
+     ```xml
+     <joint name="fixed_joint_gripper_base_link_right" type="fixed">
+       <origin xyz="0.018 0 0.01" rpy="1.5708 0 -1.5708" />
+       <parent link="${prefix_1}_translational_right" />
+       <child link="${prefix_2}_base_link_right" />
+       <axis xyz="0 0 0" />
+     </joint>
+
+     <joint name="fixed_joint_gripper_base_link_left" type="fixed">
+       <origin xyz="-0.018 0 0.01" rpy="1.5708 0 1.5708" />
+       <parent link="${prefix_1}_translational_left" />
+       <child link="${prefix_2}_base_link_left" />
+       <axis xyz="0 0 0" />
+     </joint>
+     ```
+
+
 ## Enabling Mimic Joint Functionality in Gazebo
 
 The package utilizes the MimicJointPlugin for Gazebo to enable the mimic joint functionality. To activate this feature:
 
 1. Clone the repository from [roboticsgroup_upatras_gazebo_plugins](https://github.com/roboticsgroup/roboticsgroup_upatras_gazebo_plugins.git) into your workspace.
 2. Compile the plugin in your workspace to enable the mimic joint functionality in Gazebo.
+
+## Verifying the Configuration
+
+Finally, you can verify the finger linkage by launching the `display.launch` file located in the `launch` folder to open Gazebo and observe whether the fingers are linked correctly.
+
 
 ## Conclusion
 
