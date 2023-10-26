@@ -19,7 +19,8 @@ To replace the fingers on the EGU 50 model, follow the steps below:
 
 1. **Creating Finger Xacro Files**:
    - Create your own xacro files for the new fingers, referencing the structure and contents from `egu_50_fingers_link.xacro` or `egu_50_fingers_version2_link.xacro` as needed.
-   
+
+![EGU 50 with egu_50_fingers_version2_link.xacro in Gazebo](images/EGU_50_version_2.png)   
 2. **Placing the Files**:
    - Place your created xacro file(s) in the `egu_50_description/urdf` directory.
    - Place corresponding mesh files in the `egu_50_description/meshes` directory.
@@ -58,7 +59,7 @@ To replace the fingers on the EGU 50 model, follow the steps below:
      </joint>
      ```
 
-
+![Incorrect Orientation of egu_50_fingers_version2_link.xacro in Gazebo](images/EGU_50_misaligned.jpg)
 ## Enabling Mimic Joint Functionality in Gazebo
 
 The package utilizes the MimicJointPlugin for Gazebo to enable the mimic joint functionality. To activate this feature:
