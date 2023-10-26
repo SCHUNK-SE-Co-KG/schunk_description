@@ -4,6 +4,8 @@
 
 The `egu_50_ur_description` package is designed to link the EGU 50 model with various UR (Universal Robots) robotic arm models. Before utilizing this package, ensure that the `universal_robot` package is installed and compiled on your system.
 
+![UR10e and EGU 50 in Gazebo](images/EGU_50_and_UR_10e.png)
+
 ## Prerequisites
 
 1. **Installation of universal_robot Package**:
