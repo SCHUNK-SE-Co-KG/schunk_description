@@ -12,7 +12,7 @@ The `egu_50_description` package hosts the URDF (Unified Robot Description Forma
     - `egu_50_base_link.xacro`: Base model of EGU 50 gripper without fingers.
     - `egu_50_fingers_link.xacro` and `egu_50_fingers_version2_link.xacro`: Different finger models for EGU 50 gripper.
   - **meshes**: Directory to place the mesh files for custom fingers.
-
+![EGU 50 with egu_50_fingers_link.xacro in Gazebo](images/EGU_50_version_1.png)       
 ## Customizing Fingers
 
 To replace the fingers on the EGU 50 model, follow the steps below:
