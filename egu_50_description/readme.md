@@ -7,6 +7,7 @@ The `egu_50_description` package hosts the URDF (Unified Robot Description Forma
 
 ## Package Structure
 
+
 - **egu_50_description**: This package contains the URDF model files for the EGU 50 gripper.
   - **urdf**: Directory containing xacro files for different components.
     - `egu_50_base_link.xacro`: Base model of EGU 50 gripper without fingers.

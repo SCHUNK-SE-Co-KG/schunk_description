@@ -8,6 +8,7 @@ The `egu_50_ur_description` package is designed to link the EGU 50 model with va
 
 ## Prerequisites
 
+
 1. **Installation of universal_robot Package**:
    - If the `universal_robot` package is not installed, you can install it via apt package manager:
      ```bash
