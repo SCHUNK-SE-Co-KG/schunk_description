@@ -2,8 +2,11 @@
   <name>egu_50_ur_description</name>
   <version>0.0.0</version>
   <description>URDF Description package for conbination between EGU 50 gripper and ur10e robot arm</description>
-  <maintainer email="373249497@qq.com">Jinbao Xiong --- intern in SCHUNK</maintainer>
-  <license>TODO</license>
+  <author>Jinbao Xiong</author>
+  <author>Fabian Reinwald</author>
+  <maintainer email="jinbao.xiong@de.schunk.com">Jinbao Xiong</maintainer>
+  <license>BSD</license>
+
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>egu_50_description</build_depend>
