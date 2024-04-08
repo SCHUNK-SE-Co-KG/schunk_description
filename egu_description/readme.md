@@ -1,4 +1,4 @@
-# egu_50_description Package
+# egu_description Package
 
 
 ## Introduction

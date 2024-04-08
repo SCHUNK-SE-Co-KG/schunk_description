@@ -1,4 +1,4 @@
-# egu_50_ur_description Package
+# ur_schunk_gripper_description Package
 
 ## Introduction
 
