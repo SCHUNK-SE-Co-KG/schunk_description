@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro">
+
+
+
+  <!-- Definition of the main macro -->
+  <xacro:macro name="ur_schunk_gripper_robot" params="
+   ur_model
+   transmission_hw_interface:=hardware_interface/EffortJointInterface
+   safety_limits:=false
+   safety_pos_margin:=0.15
+   safety_k_position:=20
+   gripper_type
+   ">
+    <xacro:property name="joint_limits_parameters_file" value="$(find ur_description)/config/${ur_model}/joint_limits.yaml"/>
+    <xacro:property name="kinematics_parameters_file" value="$(find ur_description)/config/${ur_model}/default_kinematics.yaml"/>
+    <xacro:property name="physical_parameters_file" value="$(find ur_description)/config/${ur_model}/physical_parameters.yaml"/>
+    <xacro:property name="visual_parameters_file" value="$(find ur_description)/config/${ur_model}/visual_parameters.yaml"/>
+
+    <!-- imports -->
+    <xacro:include filename="$(find ur_description)/urdf/inc/ur_macro.xacro"/>
+
+    <xacro:if value="${gripper_type == 'egu'}">
+      <xacro:include filename="$(find egu_description)/urdf/egu_50.xacro"/>
+    </xacro:if>
+    <xacro:if value="${gripper_type == 'pzv'}">
+      <xacro:include filename="$(find pzv_64_description)/urdf/pzv_64.xacro"/>
+    </xacro:if>
+    <xacro:if value="${gripper_type == 'pzn_plus'}">
+      <xacro:include filename="$(find pzn_plus_description)/urdf/pzn_plus.xacro"/>
+    </xacro:if>
+    <xacro:if value="${gripper_type == 'egp'}">
+      <xacro:include filename="$(find egp_description)/urdf/egp.xacro"/>
+    </xacro:if>
+    <!-- Instantiate model for the REAL robot. -->
+    
+    <xacro:if value="${gripper_type == 'egu'}">
+      <xacro:egu_50 prefix_1="egu" prefix_2="egu" meshType="dae" />
+    </xacro:if>
+    <xacro:if value="${gripper_type == 'pzv'}">
+      <xacro:pzv_64 prefix_1="pzv" prefix_2="pzv" meshType="dae" />
+    </xacro:if>
+    <xacro:if value="${gripper_type == 'pzn_plus'}">
+      <xacro:pzn_plus prefix_1="pzn_plus" prefix_2="pzn_plus" meshType="dae" />
+    </xacro:if>
+    <xacro:if value="${gripper_type == 'egp'}">
+      <xacro:egp prefix_1="egp" prefix_2="egp" meshType="dae" />
+    </xacro:if>
+
+    <xacro:ur_robot
+      prefix=""
+      joint_limits_parameters_file="${joint_limits_parameters_file}"
+      kinematics_parameters_file="${kinematics_parameters_file}"
+      physical_parameters_file="${physical_parameters_file}"
+      visual_parameters_file="${visual_parameters_file}"
+      transmission_hw_interface="${transmission_hw_interface}"
+      safety_limits="${safety_limits}"
+      safety_pos_margin="${safety_pos_margin}"
+      safety_k_position="${safety_k_position}"
+    />
+
+
+
+    <!-- Configure self collision properties per link -->
+    <gazebo reference="shoulder_link">
+      <selfCollide>true</selfCollide>
+    </gazebo>
+    <gazebo reference="upper_arm_link">
+      <selfCollide>true</selfCollide>
+    </gazebo>
+    <gazebo reference="forearm_link">
+      <selfCollide>true</selfCollide>
+    </gazebo>
+    <gazebo reference="wrist_1_link">
+      <selfCollide>true</selfCollide>
+    </gazebo>
+    <gazebo reference="wrist_3_link">
+      <selfCollide>true</selfCollide>
+    </gazebo>
+    <gazebo reference="wrist_2_link">
+      <selfCollide>true</selfCollide>
+    </gazebo>
+    <gazebo reference="ee_link">
+      <selfCollide>true</selfCollide>
+    </gazebo>
+
+    <link name="world"/>
+    <joint name="world_joint" type="fixed">
+      <parent link="world"/>1
+      <child link="base_link"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>
+
+    <link name="tool0_controller"/>
+    <joint name="tool_controller_fake_joint" type="fixed">
+      <parent link="tool0"/>
+      <child link="tool0_controller"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>
+    
+    
+    <joint name="ur_${gripper_type}_connection" type="fixed">
+      <parent link="tool0_controller"/>
+      <child link="${gripper_type}_base_link"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>
+
+    <!--
+      Inject Gazebo ROS Control plugin, which allows us to use ros_control
+      controllers to control the virtual robot hw.
+    -->
+    <gazebo>
+      <plugin name="ros_control" filename="libgazebo_ros_control.so">
+        <!--robotNamespace>/</robotNamespace-->
+        <!--robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType-->
+      </plugin>
+    </gazebo>
+  </xacro:macro>
+</robot>

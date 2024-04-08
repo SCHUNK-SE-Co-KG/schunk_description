@@ -25,7 +25,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://egu_50_description/meshes/fingers_base_link_left.${meshType}" />
+          filename="package://egu_description/meshes/fingers_base_link_left.${meshType}" />
       </geometry>
       <material
         name="">
@@ -39,7 +39,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://egu_50_description/meshes/fingers_base_link_left.${meshType}" />
+          filename="package://egu_description/meshes/fingers_base_link_left.${meshType}" />
       </geometry>
     </collision>
   </link>
@@ -66,7 +66,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://egu_50_description/meshes/finger_link_left.${meshType}" />
+          filename="package://egu_description/meshes/finger_link_left.${meshType}" />
       </geometry>
       <material
         name="">
@@ -80,7 +80,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://egu_50_description/meshes/finger_link_left.${meshType}" />
+          filename="package://egu_description/meshes/finger_link_left.${meshType}" />
       </geometry>
     </collision>
   </link>
@@ -107,7 +107,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://egu_50_description/meshes/fingers_base_link_right.${meshType}" />
+          filename="package://egu_description/meshes/fingers_base_link_right.${meshType}" />
       </geometry>
       <material
         name="">
@@ -121,7 +121,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://egu_50_description/meshes/fingers_base_link_right.${meshType}" />
+          filename="package://egu_description/meshes/fingers_base_link_right.${meshType}" />
       </geometry>
     </collision>
   </link>
@@ -148,7 +148,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://egu_50_description/meshes/finger_link_right.${meshType}" />
+          filename="package://egu_description/meshes/finger_link_right.${meshType}" />
       </geometry>
       <material
         name="">
@@ -162,7 +162,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://egu_50_description/meshes/finger_link_right.${meshType}" />
+          filename="package://egu_description/meshes/finger_link_right.${meshType}" />
       </geometry>
     </collision>
   </link>
@@ -189,7 +189,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://egu_50_description/meshes/screw_1.${meshType}" />
+          filename="package://egu_description/meshes/screw_1.${meshType}" />
       </geometry>
       <material
         name="">
@@ -203,7 +203,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://egu_50_description/meshes/screw_1.${meshType}" />
+          filename="package://egu_description/meshes/screw_1.${meshType}" />
       </geometry>
     </collision>
   </link>
@@ -230,7 +230,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://egu_50_description/meshes/screw_2.${meshType}" />
+          filename="package://egu_description/meshes/screw_2.${meshType}" />
       </geometry>
       <material
         name="">
@@ -244,7 +244,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://egu_50_description/meshes/screw_2.${meshType}" />
+          filename="package://egu_description/meshes/screw_2.${meshType}" />
       </geometry>
     </collision>
   </link>
@@ -271,7 +271,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://egu_50_description/meshes/screw_3.${meshType}" />
+          filename="package://egu_description/meshes/screw_3.${meshType}" />
       </geometry>
       <material
         name="">
@@ -285,7 +285,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://egu_50_description/meshes/screw_3.${meshType}" />
+          filename="package://egu_description/meshes/screw_3.${meshType}" />
       </geometry>
     </collision>
   </link>
@@ -312,7 +312,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://egu_50_description/meshes/screw_4.${meshType}" />
+          filename="package://egu_description/meshes/screw_4.${meshType}" />
       </geometry>
       <material
         name="">
@@ -326,7 +326,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://egu_50_description/meshes/screw_4.${meshType}" />
+          filename="package://egu_description/meshes/screw_4.${meshType}" />
       </geometry>
     </collision>
   </link>
@@ -353,7 +353,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://egu_50_description/meshes/symbol_2_left.${meshType}" />
+          filename="package://egu_description/meshes/symbol_2_left.${meshType}" />
       </geometry>
       <material
         name="">
@@ -367,7 +367,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://egu_50_description/meshes/symbol_2_left.${meshType}" />
+          filename="package://egu_description/meshes/symbol_2_left.${meshType}" />
       </geometry>
     </collision>
   </link>
@@ -394,7 +394,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://egu_50_description/meshes/symbol_2_right.${meshType}" />
+          filename="package://egu_description/meshes/symbol_2_right.${meshType}" />
       </geometry>
       <material
         name="">
@@ -408,7 +408,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://egu_50_description/meshes/symbol_2_right.${meshType}" />
+          filename="package://egu_description/meshes/symbol_2_right.${meshType}" />
       </geometry>
     </collision>
   </link>
@@ -532,16 +532,14 @@
   <gazebo reference="${prefix}finger_left">
     <kp>1000000.0</kp>
     <kd>1.0</kd>
-    <mu1>1.0</mu1>
-    <mu2>1.0</mu2>
-    <minDepth>0.001</minDepth>
+    <mu>0.35</mu>
+    <mu2>0.35</mu2>
   </gazebo>
   <gazebo reference="${prefix}finger_right">
     <kp>1000000.0</kp>
     <kd>1.0</kd>
-    <mu1>1.0</mu1>
-    <mu2>1.0</mu2>
-    <minDepth>0.001</minDepth>
+    <mu>0.35</mu>
+    <mu2>0.35</mu2>
   </gazebo>
 
 

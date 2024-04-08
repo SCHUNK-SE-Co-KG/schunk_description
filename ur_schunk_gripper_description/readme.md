@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The `egu_50_ur_description` package is designed to link the EGU 50 model with various UR (Universal Robots) robotic arm models. Before utilizing this package, ensure that the `universal_robot` package is installed and compiled on your system.
+The `ur_schunk_gripper_description` package is designed to link the EGU 50 model with various UR (Universal Robots) robotic arm models. Before utilizing this package, ensure that the `universal_robot` package is installed and compiled on your system.
 
 ![UR10e and EGU 50 in Gazebo](doc/EGU_50_and_UR_10e.png)
 

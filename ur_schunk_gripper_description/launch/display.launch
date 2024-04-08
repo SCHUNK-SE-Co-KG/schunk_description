@@ -1,0 +1,28 @@
+<launch>
+  <arg
+    name="model" />
+  <!-- Declare arguments -->
+  <arg name="debug" default="false"/>
+  <arg name="gui" default="true"/>
+  <arg name="xacro_file_path" default="$(find ur_schunk_gripper_description)/urdf/ur_schunk_gripper.urdf.xacro"/>
+  <arg name="ur_model" default="ur3e"/>
+  <arg name="gripper_type" default="pzn_plus"/> 
+  <arg name="x" default="0.0"/>
+  <arg name="y" default="0.0"/>
+  <arg name="z" default="0.0"/>
+
+
+
+  <!-- Convert xacro to URDF -->
+  <param name="robot_description" command="$(find xacro)/xacro $(arg xacro_file_path) ur_model:=$(arg ur_model) gripper_type:=$(arg gripper_type)"/>
+
+  <node
+    name="joint_state_publisher_gui"
+    pkg="joint_state_publisher_gui"
+    type="joint_state_publisher_gui" />
+  <node
+    name="robot_state_publisher"
+    pkg="robot_state_publisher"
+    type="robot_state_publisher" />
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find ur_schunk_gripper_description)/config/robot_model.rviz" />
+</launch>

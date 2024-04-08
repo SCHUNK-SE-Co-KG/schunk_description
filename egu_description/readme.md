@@ -3,7 +3,7 @@
 
 ## Introduction
 
-The `egu_50_description` package hosts the URDF (Unified Robot Description Format) models for the SCHUNK EGU 50 gripper. This document provides instructions on how to modify and utilize the provided models, especially concerning the replacement of finger models on the EGU 50 gripper.
+The `egu_description` package hosts the URDF (Unified Robot Description Format) models for the SCHUNK EGU 50 gripper. This document provides instructions on how to modify and utilize the provided models, especially concerning the replacement of finger models on the EGU 50 gripper.
 
 ## Package Structure
 

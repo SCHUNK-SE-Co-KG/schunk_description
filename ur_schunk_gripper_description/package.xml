@@ -9,7 +9,10 @@
 
 
   <buildtool_depend>catkin</buildtool_depend>
-  <build_depend>egu_50_description</build_depend>
+  <build_depend>egu_description</build_depend>
+  <build_depend>egp_description</build_depend>
+  <build_depend>pzn_plus_description</build_depend>
+  <build_depend>pzv_64_description</build_depend>
   <build_depend>ur_description</build_depend>
 
 

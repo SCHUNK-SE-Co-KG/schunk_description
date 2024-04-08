@@ -20,14 +20,14 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://egu_50_description/meshes/gripper_base_link_left.${meshType}" />
+          <mesh filename="package://egu_description/meshes/gripper_base_link_left.${meshType}" />
         </geometry>
         <material name="light_blue" />
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://egu_50_description/meshes/gripper_base_link_left.${meshType}" />
+          <mesh filename="package://egu_description/meshes/gripper_base_link_left.${meshType}" />
         </geometry>
       </collision>
     </link>
@@ -41,14 +41,14 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://egu_50_description/meshes/gripper_base_link_right.${meshType}" />
+          <mesh filename="package://egu_description/meshes/gripper_base_link_right.${meshType}" />
         </geometry>
         <material name="light_blue" />
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://egu_50_description/meshes/gripper_base_link_right.${meshType}" />
+          <mesh filename="package://egu_description/meshes/gripper_base_link_right.${meshType}" />
         </geometry>
       </collision>
     </link>
@@ -62,14 +62,14 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://egu_50_description/meshes/gripper_finger_down.${meshType}" />
+          <mesh filename="package://egu_description/meshes/gripper_finger_down.${meshType}" />
         </geometry>
         <material name="light_blue" />
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://egu_50_description/meshes/gripper_finger_down.${meshType}" />
+          <mesh filename="package://egu_description/meshes/gripper_finger_down.${meshType}" />
         </geometry>
       </collision>
     </link>
@@ -83,14 +83,14 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://egu_50_description/meshes/gripper_finger_up.${meshType}" />
+          <mesh filename="package://egu_description/meshes/gripper_finger_up.${meshType}" />
         </geometry>
         <material name="light_blue" />
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://egu_50_description/meshes/gripper_finger_up.${meshType}" />
+          <mesh filename="package://egu_description/meshes/gripper_finger_up.${meshType}" />
         </geometry>
       </collision>
     </link>
@@ -104,14 +104,14 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://egu_50_description/meshes/symbol_2_left.${meshType}" />
+          <mesh filename="package://egu_description/meshes/symbol_2_left.${meshType}" />
         </geometry>
         <material name="light_blue" />
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://egu_50_description/meshes/symbol_2_left.${meshType}" />
+          <mesh filename="package://egu_description/meshes/symbol_2_left.${meshType}" />
         </geometry>
       </collision>
     </link>
@@ -125,14 +125,14 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://egu_50_description/meshes/symbol_2_right.${meshType}" />
+          <mesh filename="package://egu_description/meshes/symbol_2_right.${meshType}" />
         </geometry>
         <material name="light_blue" />
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://egu_50_description/meshes/symbol_2_right.${meshType}" />
+          <mesh filename="package://egu_description/meshes/symbol_2_right.${meshType}" />
         </geometry>
       </collision>
     </link>
@@ -146,14 +146,14 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://egu_50_description/meshes/screw_1.${meshType}" />
+          <mesh filename="package://egu_description/meshes/screw_1.${meshType}" />
         </geometry>
         <material name="grey" />
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://egu_50_description/meshes/screw_1.${meshType}" />
+          <mesh filename="package://egu_description/meshes/screw_1.${meshType}" />
         </geometry>
       </collision>
     </link>
@@ -166,14 +166,14 @@
       </inertial>
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
-        <geometry> <mesh filename="package://egu_50_description/meshes/screw_2.${meshType}" />
+        <geometry> <mesh filename="package://egu_description/meshes/screw_2.${meshType}" />
         </geometry>
         <material name="grey" />
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://egu_50_description/meshes/screw_2.${meshType}" />
+          <mesh filename="package://egu_description/meshes/screw_2.${meshType}" />
         </geometry>
       </collision>
     </link>
@@ -187,14 +187,14 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://egu_50_description/meshes/screw_3.${meshType}" />
+          <mesh filename="package://egu_description/meshes/screw_3.${meshType}" />
         </geometry>
         <material name="grey" />
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://egu_50_description/meshes/screw_3.${meshType}" />
+          <mesh filename="package://egu_description/meshes/screw_3.${meshType}" />
         </geometry>
       </collision>
     </link>
@@ -208,14 +208,14 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://egu_50_description/meshes/screw_4.${meshType}" />
+          <mesh filename="package://egu_description/meshes/screw_4.${meshType}" />
         </geometry>
         <material name="grey" />
       </visual>
       <collision>
         <origin xyz="0 0 0" rpy="0 0 0" />
         <geometry>
-          <mesh filename="package://egu_50_description/meshes/screw_4.${meshType}" />
+          <mesh filename="package://egu_description/meshes/screw_4.${meshType}" />
         </geometry>
       </collision>
     </link>

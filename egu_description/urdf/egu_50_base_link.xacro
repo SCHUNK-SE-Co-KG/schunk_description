@@ -29,7 +29,7 @@
           rpy="0 0 0" />
         <geometry>
           <mesh
-            filename="package://egu_50_description/meshes/base_link.${meshType}" />
+            filename="package://egu_description/meshes/base_link.${meshType}" />
         </geometry>
         <material name="light_blue_1" />
       </visual>
@@ -39,7 +39,7 @@
           rpy="0 0 0" />
         <geometry>
           <mesh
-            filename="package://egu_50_description/meshes/base_link.${meshType}" />
+            filename="package://egu_description/meshes/base_link.${meshType}" />
         </geometry>
       </collision>
     </link>
@@ -65,7 +65,7 @@
           rpy="0 0 0" />
         <geometry>
           <mesh
-            filename="package://egu_50_description/meshes/symbol_1_left.${meshType}" />
+            filename="package://egu_description/meshes/symbol_1_left.${meshType}" />
         </geometry>
         <material name="light_blue_1" />
       </visual>
@@ -75,7 +75,7 @@
           rpy="0 0 0" />
         <geometry>
           <mesh
-            filename="package://egu_50_description/meshes/symbol_1_left.${meshType}" />
+            filename="package://egu_description/meshes/symbol_1_left.${meshType}" />
         </geometry>
       </collision>
     </link>
@@ -101,7 +101,7 @@
           rpy="0 0 0" />
         <geometry>
           <mesh
-            filename="package://egu_50_description/meshes/symbol_1_right.${meshType}" />
+            filename="package://egu_description/meshes/symbol_1_right.${meshType}" />
         </geometry>
         <material name="light_blue_1" />
       </visual>
@@ -111,7 +111,7 @@
           rpy="0 0 0" />
         <geometry>
           <mesh
-            filename="package://egu_50_description/meshes/symbol_1_right.${meshType}" />
+            filename="package://egu_description/meshes/symbol_1_right.${meshType}" />
         </geometry>
       </collision>
     </link>
@@ -138,7 +138,7 @@
           rpy="0 0 0" />
         <geometry>
           <mesh
-            filename="package://egu_50_description/meshes/translational_left.${meshType}" />
+            filename="package://egu_description/meshes/translational_left.${meshType}" />
         </geometry>
         <material name="light_grey" />
       </visual>
@@ -148,7 +148,7 @@
           rpy="0 0 0" />
         <geometry>
           <mesh
-            filename="package://egu_50_description/meshes/translational_left.${meshType}" />
+            filename="package://egu_description/meshes/translational_left.${meshType}" />
         </geometry>
       </collision>
     </link>
@@ -175,7 +175,7 @@
           rpy="0 0 0" />
         <geometry>
           <mesh
-            filename="package://egu_50_description/meshes/translational_right.${meshType}" />
+            filename="package://egu_description/meshes/translational_right.${meshType}" />
         </geometry>
         <material name="light_grey" />
       </visual>
@@ -185,7 +185,7 @@
           rpy="0 0 0" />
         <geometry>
           <mesh
-            filename="package://egu_50_description/meshes/translational_right.${meshType}" />
+            filename="package://egu_description/meshes/translational_right.${meshType}" />
         </geometry>
       </collision>
     </link>
@@ -220,7 +220,7 @@
     </joint>
     
     <joint
-      name="${prefix}prismatic_joint_translational_left"
+      name="${prefix}prismatic_1"
       type="prismatic">
       <origin
         xyz="-0.01258 0.01265 0.083"
@@ -240,7 +240,7 @@
     </joint>
 
     <joint
-      name="${prefix}prismatic_joint_translational_right"
+      name="${prefix}prismatic_2"
       type="prismatic">
       <origin
         xyz="0.01258 -0.01265 0.083"
@@ -256,7 +256,7 @@
         upper="0.012"
         effort="300"
         velocity="0.11" />
-      <mimic joint="${prefix}prismatic_joint_translational_left" multiplier="-1" offset="0" /> 
+      <mimic joint="${prefix}prismatic_1" multiplier="-1" offset="0" /> 
       <dynamics damping="0.3" friction="0.2" />
     </joint>
   </xacro:macro>

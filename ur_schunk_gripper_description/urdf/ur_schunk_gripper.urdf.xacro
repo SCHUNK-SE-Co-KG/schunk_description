@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://wiki.ros.org/xacro" name="ur_schunk_gripper_robot">
+  <xacro:arg name="ur_model" default="ur10e"/>
+  <xacro:arg name="gripper_type" default="pzv"/>
+
+  <xacro:include filename="$(find ur_schunk_gripper_description)/urdf/ur_schunk_gripper.xacro"/>
+  <xacro:ur_schunk_gripper_robot ur_model="$(arg ur_model)" gripper_type="$(arg gripper_type)"/>
+</robot>
