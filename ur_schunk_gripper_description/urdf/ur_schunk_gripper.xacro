@@ -11,6 +11,8 @@
    safety_pos_margin:=0.15
    safety_k_position:=20
    gripper_type
+   world_joint_xyz:='0 0 0' 
+   world_joint_rpy:='0 0 0'
    ">
     <xacro:property name="joint_limits_parameters_file" value="$(find ur_description)/config/${ur_model}/joint_limits.yaml"/>
     <xacro:property name="kinematics_parameters_file" value="$(find ur_description)/config/${ur_model}/default_kinematics.yaml"/>
@@ -22,7 +24,7 @@
 
     <xacro:if value="${gripper_type == 'egu'}">
       <xacro:include filename="$(find egu_description)/urdf/egu_50.xacro"/>
-    </xacro:if>
+    </xacro:if> 
     <xacro:if value="${gripper_type == 'pzv'}">
       <xacro:include filename="$(find pzv_64_description)/urdf/pzv_64.xacro"/>
     </xacro:if>
@@ -88,7 +90,7 @@
     <joint name="world_joint" type="fixed">
       <parent link="world"/>1
       <child link="base_link"/>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <origin xyz="${world_joint_xyz}" rpy="${world_joint_rpy}"/>
     </joint>
 
     <link name="tool0_controller"/>

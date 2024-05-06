@@ -1,8 +1,21 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://wiki.ros.org/xacro" name="ur_schunk_gripper_robot">
+  <!-- Existing parameters -->
   <xacro:arg name="ur_model" default="ur10e"/>
   <xacro:arg name="gripper_type" default="pzv"/>
+  
+  <!-- New parameters with their default values -->
+  <xacro:arg name="world_joint_xyz" default="0 0 0"/>
+  <xacro:arg name="world_joint_rpy" default="0 0 0"/>
 
+  <!-- Include the xacro file that contains the macro definition -->
   <xacro:include filename="$(find ur_schunk_gripper_description)/urdf/ur_schunk_gripper.xacro"/>
-  <xacro:ur_schunk_gripper_robot ur_model="$(arg ur_model)" gripper_type="$(arg gripper_type)"/>
+
+  <!-- Call the macro with all parameters, including the new ones -->
+  <xacro:ur_schunk_gripper_robot 
+    ur_model="$(arg ur_model)" 
+    gripper_type="$(arg gripper_type)"
+    world_joint_xyz="$(arg world_joint_xyz)" 
+    world_joint_rpy="$(arg world_joint_rpy)"
+  />
 </robot>
