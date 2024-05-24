@@ -4,7 +4,7 @@
   <description>URDF Description package for conbination between EGU 50 gripper and ur10e robot arm</description>
   <author>Jinbao Xiong</author>
   <author>Fabian Reinwald</author>
-  <maintainer email="jinbao.xiong@de.schunk.com">Jinbao Xiong</maintainer>
+  <maintainer email="stefan.scherzinger@de.schunk.com">Stefan Scherzinger</maintainer>
   <license>GPL-3.0-or-later</license>
 
 
