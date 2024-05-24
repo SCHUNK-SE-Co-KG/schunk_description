@@ -4,11 +4,7 @@
   <description>URDF Description package for eug50_version_2</description>
   <author>Jinbao Xiong</author>
   <author>Fabian Reinwald</author>
-  <!-- One maintainer tag required, multiple allowed, one person per tag -->
-  <!-- Example:  -->
-  <!-- <maintainer email="jane.doe@example.com">Jane Doe</maintainer> -->
-  <maintainer email="jinbao.xiong@de.schunk.com">Jinbao Xiong</maintainer>
-
+  <maintainer email="stefan.scherzinger@de.schunk.com">Stefan Scherzinger</maintainer>
   <license>GPL-3.0-or-later</license>
 
 
