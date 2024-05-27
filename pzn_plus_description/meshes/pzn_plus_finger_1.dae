@@ -359,9 +359,9 @@
             <matrix sid="transform">1 -2.98023e-8 0 0 2.98023e-8 1 0 0 0 0 1 0 0 0 0 1</matrix>
             <node id="FGR_AL-4-PZN-plus_40_PZN-plus_400_512410401225819012050_aeb4662" name="FGR AL-4-PZN-plus 40,PZN-plus 400.512410401225819012050_aeb4662" type="NODE">
               <matrix sid="transform">1 -2.98023e-8 0 -0.4602892 2.98023e-8 1 0 0.2657481 0 0 1 0 0 0 0 1</matrix>
-              <node id="ÊäÈë1" name="ÊäÈë1" type="NODE">
+              <node id="component" name="component" type="NODE">
                 <matrix sid="transform">-0.8660254 -0.5000001 0 5.96046e-8 0.5000001 -0.8660254 0 0 0 0 1 0 0 0 0 1</matrix>
-                <instance_geometry url="#grid_009-mesh" name="ÊäÈë1">
+                <instance_geometry url="#grid_009-mesh" name="component">
                   <bind_material>
                     <technique_common>
                       <instance_material symbol="Material__28_001-material" target="#Material__28_001-material">
@@ -380,9 +380,9 @@
             </node>
             <node id="SCHUNK-9941369_Typenschild_3x9x0_3_FGR_AL-4-PZN-plus_40_2337320" name="SCHUNK-9941369 Typenschild 3x9x0.3^FGR AL-4-PZN-plus 40_2337320" type="NODE">
               <matrix sid="transform">-0.8660254 2.96178e-9 -0.5000001 -0.5469033 0.5000001 4.87636e-8 -0.8660254 0.1157279 2.18168e-8 -1 -4.37114e-8 0.1100007 0 0 0 1</matrix>
-              <node id="ÊäÈë1_001" name="ÊäÈë1.001" type="NODE">
+              <node id="component_001" name="component.001" type="NODE">
                 <matrix sid="transform">1 -3.55271e-15 -9.53643e-16 1.19209e-7 3.55271e-15 1 0 1.14741e-8 -9.53643e-16 0 1 0 0 0 0 1</matrix>
-                <instance_geometry url="#grid_008-mesh" name="ÊäÈë1.001">
+                <instance_geometry url="#grid_008-mesh" name="component.001">
                   <bind_material>
                     <technique_common>
                       <instance_material symbol="Material__34_001-material" target="#Material__34_001-material">
@@ -401,9 +401,9 @@
             </node>
             <node id="Slotted_head_cap_screw_ISO_4762_-_M2_5x10_FGR_AL-4-PZN-_d6f922f" name="Slotted head cap screw ISO 4762 - M2.5x10^FGR AL-4-PZN-_d6f922f" type="NODE">
               <matrix sid="transform">7.54979e-8 0.5000001 0.8660255 -0.4602892 0 0.8660255 -0.5000001 0.2657481 -1 3.7749e-8 6.53831e-8 0.25 0 0 0 1</matrix>
-              <node id="ÊäÈë1_002" name="ÊäÈë1.002" type="NODE">
+              <node id="component_002" name="component.002" type="NODE">
                 <matrix sid="transform">1 -1.39672e-9 4.58676e-8 -4.94855e-9 1.39672e-9 1 -2.98023e-8 2.98023e-8 -4.58677e-8 2.98023e-8 1 0 0 0 0 1</matrix>
-                <instance_geometry url="#grid_007-mesh" name="ÊäÈë1.002">
+                <instance_geometry url="#grid_007-mesh" name="component.002">
                   <bind_material>
                     <technique_common>
                       <instance_material symbol="Material__37_001-material" target="#Material__37_001-material">
@@ -416,9 +416,9 @@
             </node>
             <node id="Slotted_head_cap_screw_ISO_4762_-_M2_5x10_FGR_AL-4-PZN-_6893efe" name="Slotted head cap screw ISO 4762 - M2.5x10^FGR AL-4-PZN-_6893efe" type="NODE">
               <matrix sid="transform">7.54979e-8 0.5000001 0.8660255 -0.7330531 0 0.8660255 -0.5000001 0.4232284 -1 3.7749e-8 6.53831e-8 0.25 0 0 0 1</matrix>
-              <node id="ÊäÈë1_003" name="ÊäÈë1.003" type="NODE">
+              <node id="component_003" name="component.003" type="NODE">
                 <matrix sid="transform">1 -1.39672e-9 4.58676e-8 -2.55417e-8 1.39672e-9 1 -2.98023e-8 2.98023e-8 -4.58677e-8 2.98023e-8 1 -1.19209e-7 0 0 0 1</matrix>
-                <instance_geometry url="#grid_006-mesh" name="ÊäÈë1.003">
+                <instance_geometry url="#grid_006-mesh" name="component.003">
                   <bind_material>
                     <technique_common>
                       <instance_material symbol="Material__37_001-material" target="#Material__37_001-material">

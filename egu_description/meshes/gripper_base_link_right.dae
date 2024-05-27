@@ -111,9 +111,9 @@
         <matrix sid="transform">0.0254 0 0 0 0 0.0254 0 0 0 0 0.0254 0 0 0 0 1</matrix>
         <node id="gripper_base_link_right_001" name="gripper_base_link_right.001" type="NODE">
           <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
-          <node id="¸´¼þ__2__FGR_AL-3-EGU_50_ZBA_EGU_50-PN-N-B1Aluminiu_8b816f8" name="¸´¼þ (2) FGR AL-3-EGU 50_ZBA_EGU 50-PN-N-B1Aluminiu_8b816f8" type="NODE">
+          <node id="part__2__FGR_AL-3-EGU_50_ZBA_EGU_50-PN-N-B1Aluminiu_8b816f8" name="part (2) FGR AL-3-EGU 50_ZBA_EGU 50-PN-N-B1Aluminiu_8b816f8" type="NODE">
             <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
-            <node id="SCHUNK-1504612_ZBA-EGU_50_2__¸´¼þ__2__FGR_AL-3-EGU__672af04" name="SCHUNK-1504612 ZBA-EGU 50(2)^¸´¼þ (2) FGR AL-3-EGU _672af04" type="NODE">
+            <node id="SCHUNK-1504612_ZBA-EGU_50_2__part__2__FGR_AL-3-EGU__672af04" name="SCHUNK-1504612 ZBA-EGU 50(2)^part (2) FGR AL-3-EGU _672af04" type="NODE">
               <matrix sid="transform">-1.62921e-7 -1.62921e-7 -1 0 -1 1.93822e-14 1.62921e-7 0 -7.16094e-15 1 -1.62921e-7 0 0 0 0 1</matrix>
               <node id="Imported1" name="Imported1" type="NODE">
                 <matrix sid="transform">1 -1.23162e-14 -1.42109e-14 0 1.23162e-14 1 -4.37114e-8 0 1.42109e-14 4.37114e-8 1 0 0 0 0 1</matrix>

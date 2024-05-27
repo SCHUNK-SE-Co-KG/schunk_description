@@ -349,9 +349,9 @@
             <matrix sid="transform">1 0 3.55271e-15 0 0 1 -3.55271e-15 0 -3.55271e-15 3.55271e-15 1 0 0 0 0 1</matrix>
             <node id="SCHUNK-5522661_Finger_EGP_64_SCHUNK-1383545_EGP_64-N-N-_08ec030" name="SCHUNK-5522661 Finger EGP 64^SCHUNK-1383545 EGP 64-N-N-_08ec030" type="NODE">
               <matrix sid="transform">-1 0 8.74228e-8 0 0 1 3.55271e-15 1.38 -8.74228e-8 3.55271e-15 -1 0 0 0 0 1</matrix>
-              <node id="ÊäÈë1" name="ÊäÈë1" type="NODE">
+              <node id="component" name="component" type="NODE">
                 <matrix sid="transform">1 0 3.55271e-15 0 0 1 -5.32907e-14 1.19209e-7 -3.55271e-15 5.32907e-14 1 -7.10543e-15 0 0 0 1</matrix>
-                <instance_geometry url="#grid_002-mesh" name="ÊäÈë1">
+                <instance_geometry url="#grid_002-mesh" name="component">
                   <bind_material>
                     <technique_common>
                       <instance_material symbol="Material__27-material" target="#Material__27-material">
@@ -364,9 +364,9 @@
             </node>
             <node id="SCHUNK-5522668_Halter-5522668_SCHUNK-1383545_EGP_64-N-N_ffa3683" name="SCHUNK-5522668 Halter-5522668^SCHUNK-1383545 EGP 64-N-N_ffa3683" type="NODE">
               <matrix sid="transform">3.13917e-7 0 -1 0.04 -3.55271e-15 1 0 0.3500001 1 3.55271e-15 3.13917e-7 -0.236 0 0 0 1</matrix>
-              <node id="ÊäÈë1_001" name="ÊäÈë1.001" type="NODE">
+              <node id="component_001" name="component.001" type="NODE">
                 <matrix sid="transform">1 1.06581e-14 -2.84217e-14 1.49012e-8 -1.06581e-14 1 0 1.94864e-8 2.84217e-14 0 1 5.58794e-8 0 0 0 1</matrix>
-                <instance_geometry url="#grid_003-mesh" name="ÊäÈë1.001">
+                <instance_geometry url="#grid_003-mesh" name="component.001">
                   <bind_material>
                     <technique_common>
                       <instance_material symbol="Material__28-material" target="#Material__28-material">
@@ -379,9 +379,9 @@
             </node>
             <node id="SCHUNK-9965220-Scheibe_D5_5_SCHUNK-1383545_EGP_64-N-N-I_7dda6f8" name="SCHUNK-9965220-Scheibe D5_5^SCHUNK-1383545 EGP 64-N-N-I_7dda6f8" type="NODE">
               <matrix sid="transform">3.13917e-7 0 -1 -0.05 -3.55271e-15 1 0 0.345 1 3.55271e-15 3.13917e-7 -0.2362204 0 0 0 1</matrix>
-              <node id="ÊäÈë1_002" name="ÊäÈë1.002" type="NODE">
+              <node id="component_002" name="component.002" type="NODE">
                 <matrix sid="transform">1 1.06581e-14 -2.84217e-14 -1.49012e-8 -1.06581e-14 1 0 -1.03255e-8 2.84217e-14 0 1 5.96046e-8 0 0 0 1</matrix>
-                <instance_geometry url="#grid_004-mesh" name="ÊäÈë1.002">
+                <instance_geometry url="#grid_004-mesh" name="component.002">
                   <bind_material>
                     <technique_common>
                       <instance_material symbol="Material__31-material" target="#Material__31-material">
@@ -397,9 +397,9 @@
             </node>
             <node id="SCHUNK-5522668_Halter-5522668_SCHUNK-1383545_EGP_64-N-N_c918e68" name="SCHUNK-5522668 Halter-5522668^SCHUNK-1383545 EGP 64-N-N_c918e68" type="NODE">
               <matrix sid="transform">3.13917e-7 8.66252e-7 1 2.087 -3.55271e-15 -1 8.66252e-7 0.354 1 -2.73559e-13 -3.13917e-7 -0.23622 0 0 0 1</matrix>
-              <node id="ÊäÈë1_003" name="ÊäÈë1.003" type="NODE">
+              <node id="component_003" name="component.003" type="NODE">
                 <matrix sid="transform">1 -3.55271e-15 1.89784e-14 0 3.55271e-15 1 0 2.50907e-10 -9.44335e-15 0 1 0 0 0 0 1</matrix>
-                <instance_geometry url="#grid_005-mesh" name="ÊäÈë1.003">
+                <instance_geometry url="#grid_005-mesh" name="component.003">
                   <bind_material>
                     <technique_common>
                       <instance_material symbol="Material__28-material" target="#Material__28-material">

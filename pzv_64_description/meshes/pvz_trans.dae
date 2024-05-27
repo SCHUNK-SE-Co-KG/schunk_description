@@ -89,9 +89,9 @@
             <matrix sid="transform">1 0 7.10543e-15 0 0 1 -7.10543e-15 0 -7.10543e-15 7.10543e-15 1 0 0 0 0 1</matrix>
             <node id="SCHUNK-5512626_finger_PZN_50-1_FGR_AL-5-PZV_64_PZV_641A_3ef18b4" name="SCHUNK-5512626 finger PZN+50-1^FGR AL-5-PZV 64_PZV 641A_3ef18b4" type="NODE">
               <matrix sid="transform">1 0 7.10543e-15 0 0 1 -7.10543e-15 0 -7.10543e-15 7.10543e-15 1 0 0 0 0 1</matrix>
-              <node id="ÊäÈë1" name="ÊäÈë1" type="NODE">
+              <node id="component" name="component" type="NODE">
                 <matrix sid="transform">1 -1.42109e-14 0 -2.98023e-8 1.42109e-14 1 -7.45058e-8 0 -7.10543e-15 7.45058e-8 1 -5.96046e-8 0 0 0 1</matrix>
-                <instance_geometry url="#grid-mesh" name="ÊäÈë1">
+                <instance_geometry url="#grid-mesh" name="component">
                   <bind_material>
                     <technique_common>
                       <instance_material symbol="Material__25-material" target="#Material__25-material">

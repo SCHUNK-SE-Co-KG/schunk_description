@@ -111,7 +111,7 @@
         <matrix sid="transform">0.0254 0 0 0 0 0.0254 0 0 0 0 0.0254 0 0 0 0 1</matrix>
         <node id="gripper_finger_down_001" name="gripper_finger_down.001" type="NODE">
           <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
-          <node id="¸´¼þ__2__FGR_AL-3-EGU_50_ZBA_EGU_50-PN-N-B1Aluminiu_8b816f8" name="¸´¼þ (2) FGR AL-3-EGU 50_ZBA_EGU 50-PN-N-B1Aluminiu_8b816f8" type="NODE">
+          <node id="part__2__FGR_AL-3-EGU_50_ZBA_EGU_50-PN-N-B1Aluminiu_8b816f8" name="part (2) FGR AL-3-EGU 50_ZBA_EGU 50-PN-N-B1Aluminiu_8b816f8" type="NODE">
             <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
             <node id="FGR_AL-3-EGU_50_ZBA_EGU_50-PN-N-B20134_5137016_51504200_d42db43" name="FGR AL-3-EGU 50_ZBA,EGU 50-PN-N-B20134.5137016.51504200_d42db43" type="NODE">
               <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
